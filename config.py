@@ -90,7 +90,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/ruyh1i.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/ygm5ds.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://envs.sh/nvp.jpg"
