@@ -89,7 +89,7 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv(
+START_VIDEO_URL = getenv(
     "START_IMG_URL", "https://envs.sh/U2z.mp4"
 )
 PING_IMG_URL = getenv(
