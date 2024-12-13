@@ -90,13 +90,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/ruyh1i.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/3c3854a0b879d9ccd70f7-068c141d0f154212c9.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/nvp.jpg"
+    "PING_IMG_URL", "https://envs.sh/UN2.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/9acd828ec45a363add2e9.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/yfvai0.jpg"
+STATS_IMG_URL = "https://envs.sh/UNI.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
