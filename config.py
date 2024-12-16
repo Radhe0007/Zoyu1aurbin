@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_RADHE7_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","@lll_SANATANI_lll")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME","RADHE_MUSIC_ROBOT")
 # --------------------------------------------------------
@@ -30,7 +30,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6726372149))
+OWNER_ID = int(getenv("OWNER_ID", 7839106251))
 
 
 # make your bots privacy from telegra.ph and put your url here 
