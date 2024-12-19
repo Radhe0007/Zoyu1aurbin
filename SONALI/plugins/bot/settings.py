@@ -54,9 +54,13 @@ async def settings_mar(client, message: Message, _):
 @languageCB
 async def gib_repo(client, CallbackQuery, _):
     await CallbackQuery.edit_message_media(
-        InputMediaVideo("https://telegra.ph/file/136b8c8380fb100ab3efa.mp4"),
+        InputMediaVideo(
+            "https://envs.sh/8f9.mp4", 
+            caption="● ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴏɴ ʀᴇᴘᴏ \n ● ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 🔗"
+        ),
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper")]]
+            [
+[InlineKeyboardButton(text="˹ ʀᴇᴘᴏ ˼", url=f"https://github.com/RishuBot/Rishu_Music")],[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper")]]
         ),
     )
 
