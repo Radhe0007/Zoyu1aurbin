@@ -55,9 +55,7 @@ async def settings_mar(client, message: Message, _):
 async def gib_repo(client, CallbackQuery, _):
     await CallbackQuery.edit_message_media(
         InputMediaVideo(
-            "https://envs.sh/8ab.mp4", 
-            caption="● ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴏɴ ʀᴇᴘᴏ \n ● ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 🔗"
-        ),
+            "https://envs.sh/8ab.mp4"),
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper")]]
         ),
