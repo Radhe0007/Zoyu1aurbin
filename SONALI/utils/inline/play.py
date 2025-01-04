@@ -54,7 +54,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 60 <= umm < 70:
         bar = "——————🅔———"
     elif 70 <= umm < 80:
-        bar = "🅡———————🅔—"
+        bar = "-———————🅔—"
     elif 80 <= umm < 95:
         bar = "————————🅡—"
     else:
@@ -76,10 +76,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="✰ ᴜᴘᴅᴀᴛᴇ ✰", url ="https://t.me/ll_BOTCHAMBER_ll",
+                text="• ᴜᴘᴅᴀᴛᴇ •", url ="https://t.me/ll_BOTCHAMBER_ll",
             ),
             InlineKeyboardButton(
-                text="✰ sᴜᴘᴘᴏʀᴛ ✰", url="https://t.me/FRIENDSHUBCHATZONE",
+                text="• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/FRIENDSHUBCHATZONE",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -99,10 +99,10 @@ def stream_markup(_, videoid, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="✰ ᴜᴘᴅᴀᴛᴇ ✰", url="https://t.me/ll_BOTCHAMBER_ll",
+                text="• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/ll_BOTCHAMBER_ll",
             ),
             InlineKeyboardButton(
-                text="✰ sᴜᴘᴘᴏʀᴛ ✰", url="https://t.me/FRIENDSHUBCHATZONE",
+                text="• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/FRIENDSHUBCHATZONE",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
