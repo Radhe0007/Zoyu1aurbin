@@ -30,7 +30,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID","6726372149"))
+OWNER_ID = int(getenv("OWNER_ID","6949414014"))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -52,7 +52,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_BOTCHAMBER_ll")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT","https://t.me/FRIENDSHUBCHATZONE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT","https://t.me/BOT_SUPPORT_GROUP7")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
